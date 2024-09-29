@@ -1,8 +1,8 @@
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Major_Mono_Display } from "next/font/google";
 
 export const inter = Inter({ subsets: ["latin"] });
 
-export const poppins = Poppins({
+export const poppins = Major_Mono_Display({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: "400",
 });
