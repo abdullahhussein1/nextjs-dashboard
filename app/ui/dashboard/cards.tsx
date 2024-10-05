@@ -4,7 +4,7 @@ import {
   UserGroupIcon,
   InboxIcon,
 } from "@heroicons/react/24/outline";
-import { poppins } from "@/app/ui/fonts";
+import { lusitana } from "@/app/ui/fonts";
 
 const iconMap = {
   collected: BanknotesIcon,
@@ -48,7 +48,7 @@ export function Card({
         <h3 className="ml-2 text-sm font-medium">{title}</h3>
       </div>
       <p
-        className={`${poppins.className}
+        className={`${lusitana.className}
           truncate rounded-2xl bg-white px-4 py-8 text-center text-2xl`}
       >
         {value}
