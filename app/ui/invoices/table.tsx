@@ -16,12 +16,12 @@ export default async function InvoicesTable({
   return (
     <div className="mt-6 flow-root">
       <div className="inline-block min-w-full align-middle">
-        <div className="rounded-2xl bg-gray-50 p-2 md:pt-0">
+        <div className="rounded-3xl bg-gray-50 p-2 md:pt-0">
           <div className="md:hidden">
             {invoices?.map((invoice) => (
               <div
                 key={invoice.id}
-                className="mb-2 w-full rounded-2xl bg-white p-4"
+                className="mb-2 w-full rounded-3xl bg-white p-4"
               >
                 <div className="flex items-center justify-between border-b pb-4">
                   <div>
@@ -55,7 +55,7 @@ export default async function InvoicesTable({
             ))}
           </div>
           <table className="hidden min-w-full text-gray-900 md:table">
-            <thead className="rounded-2xl text-left text-sm font-normal">
+            <thead className="rounded-3xl text-left text-sm font-normal">
               <tr>
                 <th scope="col" className="px-4 py-5 font-medium sm:pl-6">
                   Customer
@@ -77,7 +77,7 @@ export default async function InvoicesTable({
                 </th>
               </tr>
             </thead>
-            <tbody className="bg-white">
+            <tbody className="rounded-3xl bg-white">
               {invoices?.map((invoice) => (
                 <tr
                   key={invoice.id}

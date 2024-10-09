@@ -13,8 +13,8 @@ export default async function LatestInvoices() {
       >
         Latest Invoices
       </h2>
-      <div className="flex grow flex-col justify-between rounded-2xl bg-gray-50 p-4">
-        <div className="bg-white px-6">
+      <div className="flex grow flex-col justify-between rounded-3xl bg-gray-50 p-4">
+        <div className="bg-white rounded-3xl px-6">
           {latestInvoices.map((invoice, i) => {
             return (
               <div
