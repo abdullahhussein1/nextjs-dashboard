@@ -14,7 +14,7 @@ export default function SideNav() {
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
         <NavLinks />
-        <div className="hidden h-auto w-full grow rounded-2xl bg-gray-50 md:block"></div>
+        <div className="hidden h-auto w-full grow rounded-3xl bg-gray-50 md:block"></div>
         <form>
           <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-3xl bg-gray-50 p-3 text-sm font-medium hover:bg-neutral-5000/30 hover:text-neutral-900 md:flex-none md:justify-start md:p-2 md:px-3">
             <PowerIcon className="w-6" />
